@@ -19,7 +19,6 @@ var mainState = {
       Phaser.Keyboard.SPACEBAR
     );
     spaceKey.onDown.add(this.jump, this);
-    )
   },
 
   update: function() {
@@ -39,7 +38,7 @@ var mainState = {
 
 
 //init phaser, 600x 700 px game
-var game = new Phaser.game(600, 730);
+var game = new Phaser.Game(600, 730);
 
 //add the mainState and as 'main'
 game.state.add('main', mainState);
